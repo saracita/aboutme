@@ -1,0 +1,65 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+    
+}
+#header{
+    height: 300px;
+    padding: 20px;
+}
+#navigation {
+    margin: 50px ;
+    padding: 2px ;
+    list-style-type: none ;
+    height: 120px;
+    text-align: center;
+}   
+
+h1, h2, h3{
+font-family: 'Ubuntu', sans-serif; 
+font-size: 40px;
+color: rgb(247, 144, 204);
+}
+
+  li{
+    list-style-type: none ;  
+    display: inline;
+    margin-right: 100px ;
+    
+    }
+
+img{
+    border-radius: 30px;
+    margin: 20px;
+    padding: 10px;
+    width: 400px;
+}
+#about{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(240, 246, 250);
+    padding: 20px;
+}
+#passions{
+   background-color: rgb(209, 228, 238);
+    height: 100px;
+    padding: 20px;
+}
+#passionpic{
+    display:flex;
+    padding: 20px;
+    width: 400px;
+
+}
+#footer{
+    background-color: darkslategray;
+}
+.contact{
+    height: 20px;
+}
+
+.smaller-image {
+    width: 400px;
+    border-radius: 30px;
+}
