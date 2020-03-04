@@ -1,65 +1,87 @@
-
-body{
-    font-family: 'Montserrat', sans-serif;
-
-    
-}
 #header{
     height: 300px;
     padding: 20px;
 }
-#navigation {
-    margin: 50px ;
-    padding: 2px ;
-    list-style-type: none ;
-    height: 120px;
-    text-align: center;
-}   
 
-h1, h2, h3{
-font-family: 'Ubuntu', sans-serif; 
-font-size: 40px;
-color: rgb(247, 144, 204);
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(247, 247, 247);
+    background-image:url(images/fond2.jpg);  
+    font-size: 20px;    
 }
 
-  li{
-    list-style-type: none ;  
-    display: inline;
-    margin-right: 100px ;
-    
+p { 
+    font-size: 20px;
+    margin-top: 600px;
+    color: rgb(101, 61, 212); 
+    margin: 25px;
+
+}
+
+.bloc {
+    background-color: rgb(193, 228, 248);
+    border-radius: 40px;
+    margin: 100px;
+    padding: 60px; 
+    height: 1800px;     
+} 
+
+h1{
+    font-size: 40px;
+    color: rgb(247, 144, 204);
+    margin: 25px; 
     }
 
+h2, h3{
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 40px;
+    color:rgb(247, 144, 204);
+    margin: 25px; 
+        
+        }
+        
+
 img{
-    border-radius: 30px;
-    margin: 20px;
-    padding: 10px;
-    width: 400px;
-}
-#about{
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(240, 246, 250);
-    padding: 20px;
-}
-#passions{
-   background-color: rgb(209, 228, 238);
-    height: 100px;
-    padding: 20px;
-}
-#passionpic{
-    display:flex;
-    padding: 20px;
-    width: 400px;
+    border-radius: 50%;
+    width: 300px;
+    padding-right: 100px;
+
 
 }
+
 #footer{
-    background-color: darkslategray;
-}
-.contact{
-    height: 20px;
-}
+    
+    font-size: 40px;
+    margin-left: 700px;
+    justify-content: right;
+    list-style: none;
+    }
 
+#about{
+    margin-top: 30px;
+      
+    }
+    
+#passions{
+    text-align: left; 
+      
+         
+    }
+    
 .smaller-image {
-    width: 400px;
-    border-radius: 30px;
-}
+    width: 300px;
+    border-radius: 50%;
+    }
+    
+#little-image {
+    padding: -200px;
+    }
+    
+#contact{ 
+    text-align: left;
+    }
+
+    
+    
+
+  
