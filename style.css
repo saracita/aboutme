@@ -36,7 +36,7 @@ img{
     width: 400px;
 }
 #about{
-    display: flex;
+    display: flex ;
     flex-direction: row;
     background-color: rgb(240, 246, 250);
     padding: 20px;
