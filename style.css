@@ -11,11 +11,12 @@ body{
 }
 
 .navigation {
-    position: absolute;
+
     list-style: none;
     text-align: right;
     color: blueviolet;
     font-size: 30px;
+    margin: 60px;
     
     
 
