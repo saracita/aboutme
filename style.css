@@ -11,13 +11,13 @@ body{
 }
 
 .navigation {
+    list-style: none;
     position: absolute;
-    text-align: center;
-    font-size: 38px;
+    font-size: 29px;
     margin: 600px;
-    padding-left: 1000px;
+    padding-left: 100px;
     padding-top: -16px;
-    margin-left: 184px;
+    margin-left: 1100px;
     
 } 
 
