@@ -11,12 +11,14 @@ body{
 }
 
 .navigation {
-    color: blueviolet;
-    display: inline;
+    position: absolute;
     list-style: none;
-    text-align: center ;
-    margin: 0 ;
-    padding: 0 ;
+    text-align: right;
+    color: blueviolet;
+    font-size: 30px;
+    
+    
+
 } 
 
 p { 
