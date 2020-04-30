@@ -11,15 +11,14 @@ body{
 }
 
 .navigation {
-
-    list-style: none;
+    position: absolute;
     text-align: center;
-    color: rgb(156, 62, 243);
-    font-size: 30px;
-    margin: 60px;
+    font-size: 38px;
+    margin: 600px;
+    padding-left: 1000px;
+    padding-top: -16px;
+    margin-left: 184px;
     
-    
-
 } 
 
 p { 
